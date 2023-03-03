@@ -29,13 +29,14 @@ function verificaColisao(){
     colisao = collideRectCircle(xCarros[i], yCarros[i], comprimentoCarro, alturaCarro, xAtor, yAtor, 15)
     if(colisao){
       colidiu();
+      perderPonto()
     }
   }
 }
 
 function colidiu(){
   yAtor = 366
-  xAtor= 100;
+  somDaColisao.play();
 }
 
 function colisaoBorda(){

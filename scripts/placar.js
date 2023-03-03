@@ -10,9 +10,16 @@ function incluiPontos(){
 function marcaPonto(){
     if (yAtor <= 15){
         meusPontos +=1;
+        somDoPonto.play();
     }
     if (yAtor <= 15){
         yAtor =366;
-        xAtor=100;
     }
 }
+
+function perderPonto(){
+    if (meusPontos > 0){
+        meusPontos -= 1
+    }
+}
+
