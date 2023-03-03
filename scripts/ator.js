@@ -5,7 +5,7 @@ let colisao = false;
 
 
 function mostraAtor(){
-  image(imagemDoAtor, xAtor, yAtor, 30, 30);
+  image(imagemDoAtor, xAtor, yAtor, 25, 25);
 }
 
 function movimentaAtor(){
@@ -20,6 +20,7 @@ function movimentaAtor(){
   }
   if (keyIsDown(LEFT_ARROW)){
     xAtor -= 2;
+    
   }
 }
 
@@ -34,6 +35,7 @@ function verificaColisao(){
 
 function colidiu(){
   yAtor = 366
+  xAtor= 100;
 }
 
 function colisaoBorda(){

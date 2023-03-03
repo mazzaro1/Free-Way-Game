@@ -9,9 +9,10 @@ function draw() {
   movimentaCarro();
   movimentaAtor();
   voltaPosicaoInicialDoCarro();
-  verificaColisao()
+  verificaColisao();
   colisaoBorda();
   incluiPontos();
+  marcaPonto();
 }
 
 
