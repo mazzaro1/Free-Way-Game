@@ -5,7 +5,7 @@ function setup() {
 function draw() {
   background(imagemDaEstrada);
   mostraAtor();
-  mostraACarro();
+  mostraACarro(imagemCarro, xCarro, yCarro);
   movimentaCarro();
   movimentaAtor();
 }
