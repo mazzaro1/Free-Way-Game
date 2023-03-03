@@ -5,7 +5,20 @@ function setup() {
 function draw() {
   background(imagemDaEstrada);
   mostraAtor();
-  mostraACarro(imagemCarro, xCarro, yCarro);
+  mostraCarro();
   movimentaCarro();
   movimentaAtor();
+  voltaPosicaoInicialDoCarro();
+  verificaColisao()
+  colisaoBorda();
+  incluiPontos();
 }
+
+
+
+
+
+
+
+
+
